@@ -1,20 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Rapto Audiovisual</title>
-    <link rel="stylesheet" type="text/css" href="raptostyle.css"/>
-    <style>
-      * {font-family: 'Verdana', 'Times';}
-      a {color: seagreen; text-decoration: none;}
-      img {border-radius: 100%;}
-    </style>
-      
-  </head>
+    
+    <link rel="stylesheet" type="text/css" href="raptostyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+  </head> 
+  <!---------- body ---------->
   <body>
-    <h1>Hello</h1>
-    <img src="rapto-c3.jpg" alt="logomarca">
-    <p>Bienvenido ao site</p>
-    <a href="#">Obrigado</a>
-
+    <div class="container">
+      <h1>Hello</h1>
+      <img src="rapto-c3.jpg" alt="logomarca">
+      
+      <div class="row">
+        <div class="col-md-6">
+          <p>Bienvenido ao site</p>
+          <a class="btn" href="#" role="button">Obrigado</a>
+        </div>
+        
+        <div class="col-md-2">
+          <h2>desenvolvido direto no github</h2>
+          <p>testando funcionalidades do bootstrap</p>
+          <a class="btn btn-default" href="#" role="button">Acompanhe</a>
+        </div>
+      </div>
+    </div>
+    
+  <!---------- scripts ---------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
