@@ -1,3 +1,7 @@
 body {
   background-color: ghostwhite;
 }
+
+.container img {
+  border-radius: 100%;
+}
